@@ -34,38 +34,5 @@
 	<build>
 		<finalName>armonitor-web-rest-example</finalName>
 	</build>  
-	
-	<profiles>
-		<profile>
-			<id>release</id>
-			<build>				
-			</build>
-		</profile>
-		<profile>
-			<id>deploy</id>
-			<build>
-				<plugins>
-					<plugin>
-						<artifactId>maven-antrun-plugin</artifactId>
-						<executions>
-							<execution>
-								<phase>package</phase>
-								<configuration>
-									<tasks>
-										<copy
-											file="${project.build.directory}/${project.build.finalName}.war"
-											tofile="${server.home.dir}/standalone/deployments/${project.build.finalName}.war" />
-									</tasks>
-								</configuration>
-								<goals>
-									<goal>run</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build> 			
-		</profile>
-	</profiles>
 
 </project>
