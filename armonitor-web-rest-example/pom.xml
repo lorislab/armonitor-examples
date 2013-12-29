@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.lorislab.armonitor</groupId>
-			<artifactId>armonitor-agent</artifactId>
+			<artifactId>armonitor-agent-impl</artifactId>
 			<version>${version.armonitor}</version>
 		</dependency>
 				

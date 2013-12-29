@@ -18,7 +18,12 @@
 			<artifactId>armonitor-agent-rs</artifactId>
 			<version>${version.armonitor}</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.lorislab.armonitor</groupId>
+			<artifactId>armonitor-agent-impl</artifactId>
+			<version>${version.armonitor}</version>
+		</dependency>
+				
 		<!-- RESTEASY -->                   
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
