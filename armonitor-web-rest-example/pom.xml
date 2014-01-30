@@ -35,4 +35,22 @@
 		<finalName>armonitor-web-rest-example</finalName>
 	</build>  
 
+	<profiles>
+		<profile>
+			<id>test</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.lorislab.armonitor</groupId>
+						<artifactId>armonitor-maven-plugin</artifactId>	
+						<version>1.0.0-SNAPSHOT</version>
+						<configuration>
+							<url>http://localhost:8080</url>
+							<key>62c68187-f161-437d-afce-38a621bdb0b4</key>
+						</configuration>
+					</plugin>
+				</plugins>				
+			</build>
+		</profile>
+	</profiles>
 </project>
