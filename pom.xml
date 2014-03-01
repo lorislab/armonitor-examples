@@ -5,7 +5,7 @@
 	<groupId>org.lorislab.armonitor</groupId>
 	<name>armonitor-examples</name>
 	<artifactId>armonitor-examples</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -16,7 +16,7 @@
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
-		<version.armonitor>1.0.0-SNAPSHOT</version.armonitor>
+		<version.armonitor>0.0.1-SNAPSHOT</version.armonitor>
 	</properties>
 	
 	<scm>
@@ -38,7 +38,7 @@
 			<plugin>
 				<groupId>org.lorislab.armonitor</groupId>
 				<artifactId>armonitor-maven-plugin</artifactId>	
-				<version>1.0.0-SNAPSHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<phase>prepare-package</phase>
